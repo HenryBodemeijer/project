@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <ul class="navbar">
+            <img id="logo" src="Afbeeldingen/logo.png" alt="logo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recepten.html">recepten</a></li>
+            <li><a href="Bmi.html">BMI calc.</a></li>
+            <li><a href="informatie.html">Informatie</a></li>
+            <li><a href="vragenlijst.html" class="active">vragenlijst</a></li>
+            
+        </ul>
+    </div>
+    <div id="vragenlijst">
+        <div class="box">
+    <h1>Vragenlijst</h1>
+
+        <form action="vragenlijst.php" method="post">   
+            
+        <label for="vraag1">Hoe vaak eet je fruit op een dag</label><br>
+        <input type="checkbox" value="4" name="fruit">
+        <label for="vaak">Elke Dag</label><br>
+        <input type="checkbox" value="3" name="fruit">
+        <label for="niet vaak">Paar x per week</label><br>
+        <input type="checkbox" value="2" name="fruit">
+        <label for="bijna nooit">Bijna Nooit</label><br>
+        <input type="checkbox" value="1" name="fruit">
+        <label for="nooit">Nooit</label><br><br>
+
+        <label for="">Hoe vaak eet je in de kantine van school</label><br>
+        <input type="checkbox" value="1" name="kantine">
+        <label for="elke dag">Elke Dag</label><br>
+        <input type="checkbox" value="2" name="kantine">
+        <label for="bijna elke dag">Bijna Elke Dag</label><br>
+        <input type="checkbox" value="3" name="kantine">
+        <label for="soms">Soms</label><br>
+        <input type="checkbox" value="4" name="kantine">
+        <label for="nooit2">Nooit</label><br><br>
+
+        <label for="">Is er voldoende gezond aan eten in de kantine</label><br>
+        <input type="checkbox" value="2" name="etenkantine">
+        <label for="ja">Ja</label><br>
+        <input type="checkbox" value="1" name="etenkantine">
+        <label for="nee">Nee</label><br><br>
+
+        <label for="">Hoe vaak drink je frisdrank op een dag</label><br>
+        <input type="checkbox" value="1" name="frisdrank">
+        <label for="elke dag">Elke Dag</label><br>
+        <input type="checkbox" value="2" name="frisdrank">
+        <label for="paar week">Paar x per week</label><br>
+        <input type="checkbox" value="3" name="frisdrank">
+        <label for="bijna nooit2">Bijna Nooit</label><br><br>
+
+        <label for="">Hoe vaak ontbijt je</label><br>
+        <input type="checkbox" value="3" name="ontbijt">
+        <label for="altijd">Altijd</label><br>
+        <input type="checkbox" value="2" name="ontbijt">
+        <label for="vaak">Vaak</label><br>
+        <input type="checkbox" value="1" name="ontbijt">
+        <label for="nooit3">Nooit</label><br><br>
+
+        <label for="">Eet je wel eens na 11 uur</label><br>
+        <input type="checkbox" value="1" name="eten">
+        <label for="altijd2">Altijd</label><br>
+        <input type="checkbox" value="2" name="eten">
+        <label for="soms2">Soms</label><br>
+        <input type="checkbox" value="3" name="eten">
+        <label for="nooit4">Nooit</label><br><br>
+
+        <label for="">Wat is je BMI</label><br>
+        <input type="checkbox" value="1" name="bmi">
+        <label for="overgewicht gewicht">Overgewicht</label><br>
+        <input type="checkbox" value="2" name="bmi">
+        <label for="goed gewicht">Goed gewicht</label><br>
+        <input type="checkbox" value="1" name="bmi">
+        <label for="ondergewicht">Ondergewicht</label><br><br>
+
+        <input type="submit" name="Verstuur" id="verstuur" value="Verstuur"><br>
+        </form> 
+    </div>
+</div>
+</body>
+</html> 
