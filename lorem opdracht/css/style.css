@@ -1,0 +1,79 @@
+        ul {
+            list-style-type: none; 
+            margin: 0px; 
+            padding: 0px;
+            overflow: hidden;    
+            background-color: darkblue;
+        }
+
+        h1 {
+            color: black;
+            font: Arial;
+        }
+
+        li {
+            display: inline;     
+        }        
+
+        li {
+            float: left;
+            margin-left: auto; 
+            margin-right: auto;
+        }
+
+        li a:hover {
+            background-color: green;
+            color: white;     
+        }
+        
+        li a {
+            display: block;
+            width: 120px;
+            padding: 20px;
+            color: lightgray;
+            text-decoration: none;
+        }
+
+        #main {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        height: 35px;
+        text-align: center;
+        }
+
+        #middenstuk {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid darkblue;
+        background-color: lightsteelblue;
+        }
+        
+        .artikel {
+            width: 790px;
+            height:205px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            border: 1px solid blue;
+            text-align: left;
+        }
+
+        articel{
+            width: 580px;
+            display: block;
+            float: left;
+        }
+
+        .artikel:hover {
+            background:darkcyan;
+        }
+
+        .afbeelding {
+            float: right;
+            margin: 5px;
+        }
+        

@@ -1,0 +1,9 @@
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.active img {
+    background: aqua;
+    border: 2px solid red;
+}
