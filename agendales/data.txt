@@ -1,0 +1,1 @@
+[{"naam":"Amsterdam","land":"Nederland","inwoners":700000},{"naam":"Parijs","land":"Frankrijk","inwoners":2000000}]
