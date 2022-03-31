@@ -1,0 +1,44 @@
+header {
+    background-color: aqua;
+    display: flex;
+}
+
+main {
+    background-color: blue;
+    display: flex;
+}
+
+footer {
+    background-color: chartreuse;
+    display: flex;
+}
+div {
+    display: flex;
+    font-size: 20px;
+    margin: 20px;
+    align-content: center;
+}
+
+.div1 {
+    background-color: seagreen;
+}
+
+.div2 {
+    background-color: red;
+}
+
+.div3 {
+    background-color: gold;
+}
+
+.div4 {
+    background-color: hotpink;
+}
+
+.div5 {
+    background-color: beige;
+}
+
+.div6 {
+    background-color: yellow;
+}
